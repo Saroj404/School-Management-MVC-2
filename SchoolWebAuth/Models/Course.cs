@@ -13,6 +13,7 @@ namespace SchoolWebAuth.Models
         [Required]
         public string CourseName { get; set; }
         [Required]
+        [Display(Name ="Duration(months)")]
         public int Duration { get; set; }
     }
 }

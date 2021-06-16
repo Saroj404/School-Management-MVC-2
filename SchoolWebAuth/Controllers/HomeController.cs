@@ -16,7 +16,7 @@ namespace SchoolWebAuth.Controllers
        
         public ActionResult About()
         {
-            ViewBag.Message = "Broadway Higher Secondary School";
+            ViewBag.Message = "Broadway Infosys Pvt. Ltd.";
 
             return View();
         }
