@@ -11,6 +11,7 @@ namespace SchoolWebAuth.Models
         [Key]
         public int id { get; set; }
         [Required]
+        [Display(Name="Teacher Name")]
         public string Name { get; set; }
         [Required]
         public string Address { get; set; }

@@ -115,3 +115,4 @@ C:\Users\user\source\repos\SchoolWebAuth\SchoolWebAuth\obj\Debug\SchoolWebAuth.p
 C:\Users\user\source\repos\SchoolWebAuth\SchoolWebAuth\obj\Debug\SchoolWebAuth.Migrations.Initial.resources
 C:\Users\user\source\repos\SchoolWebAuth\SchoolWebAuth\obj\Debug\SchoolWebAuth.csproj.GenerateResource.cache
 C:\Users\user\source\repos\SchoolWebAuth\SchoolWebAuth\obj\Debug\SchoolWebAuth.Migrations.models.resources
+C:\Users\user\source\repos\SchoolWebAuth\SchoolWebAuth\obj\Debug\SchoolWebAuth.Migrations.teachrforeignkey.resources

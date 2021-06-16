@@ -183,6 +183,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\CourseViewController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -199,6 +200,10 @@
     <Compile Include="Migrations\202106121237115_models.Designer.cs">
       <DependentUpon>202106121237115_models.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106160902558_teachr foreign key.cs" />
+    <Compile Include="Migrations\202106160902558_teachr foreign key.Designer.cs">
+      <DependentUpon>202106160902558_teachr foreign key.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Course.cs" />
@@ -210,12 +215,18 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\html.jpeg" />
+    <Content Include="Content\images\android.png" />
+    <Content Include="Content\images\asp-net-mvc-logo.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrapcur.css" />
     <Content Include="Content\HIGHSCHOOL bigcopycroppedtwo.jpg" />
+    <Content Include="Content\images\flutter5786.jpg" />
+    <Content Include="Content\photo.JPG" />
+    <Content Include="Content\images\php.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -285,6 +296,11 @@
     <Content Include="Views\Course\Edit.cshtml" />
     <Content Include="Views\Course\Index.cshtml" />
     <Content Include="Views\CourseView\Index.cshtml" />
+    <Content Include="Views\Courses\Create.cshtml" />
+    <Content Include="Views\Courses\Delete.cshtml" />
+    <Content Include="Views\Courses\Details.cshtml" />
+    <Content Include="Views\Courses\Edit.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -308,6 +324,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106121237115_models.resx">
       <DependentUpon>202106121237115_models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106160902558_teachr foreign key.resx">
+      <DependentUpon>202106160902558_teachr foreign key.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
